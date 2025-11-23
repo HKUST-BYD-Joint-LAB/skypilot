@@ -25,7 +25,8 @@ CONSOLIDATION_MODE_LOCK_ID = '~/.sky/consolidation_mode_lock'
 CONTROLLER_RESOURCES: Dict[str, Union[str, int]] = {
     'cpus': '4+',
     'memory': '4x',
-    'disk_size': 50
+    'disk_size': 50,
+    'image_id': 'docker:registry.cn-shenzhen.aliyuncs.com/globalmirror/skypilot:latest' # setting to the mainland
 }
 
 # Autostop config for the jobs controller. These are the default values for
